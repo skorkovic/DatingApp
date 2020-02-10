@@ -13,6 +13,8 @@ namespace DatingApp.API.Models
         public DateTime DateAdded { get; set; }
 
         public bool IsMain { get; set; }
+        
+        public bool IsApproved { get; set; }
 
         public string PublicID { get; set; }
 
